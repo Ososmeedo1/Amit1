@@ -35,7 +35,7 @@ women.addEventListener('click', function (e) {
 })
 
 bride.addEventListener('click', function (e) {
-  window.location.href = "./Amit1/bride.html"
+  window.location.href = "./bride.html"
 })
 
 
