@@ -21,7 +21,8 @@ let displayProducts = async () => {
               <img src="${products[i].thumbnail}" class="card-img-top" alt="${products[i].title}">
               <div class="card-body">
                 <h5 class="card-title">${products[i].title}</h5>
-                <p class="card-text">${products[i].description}</p>
+                <p class="card-text">${products[i].price}</p>
+                <a class="btn btn-outline-danger" href='./details.html?id=${products[i].id}'>Go</a>
               </div>
             </div>
           </div>
