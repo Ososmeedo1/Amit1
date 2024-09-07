@@ -48,7 +48,37 @@ nav {
 }
 
 
-/* art section */
+/* footer */
+
+footer .content img {
+  width: 15%;
+}
+
+footer .content p {
+  font-family: "Abel", sans-serif;
+}
+
+footer .content h2 {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+footer .content a {
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+  color: inherit;
+}
+
+footer .content a:hover {
+  color: #D8B454;
+}
+
+footer .content {
+  color: #fff;
+}
 
 
 

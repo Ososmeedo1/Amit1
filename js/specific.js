@@ -11,11 +11,11 @@ const thirdImage = document.getElementById("thirdImage")
 
 
 imaginary.addEventListener('click', function (e) {
-  window.location.href = "../imaginary.html"
+  window.location.href = "./imaginary.html"
 })
 
 ramadan.addEventListener('click', function (e) {
-  window.location.href = "../ramadan.html"
+  window.location.href = "./ramadan.html"
 })
 
 girl.addEventListener('click', function (e) {
@@ -23,19 +23,19 @@ girl.addEventListener('click', function (e) {
 })
 
 poetry.addEventListener('click', function (e) {
-  window.location.href = "../poetry.html"
+  window.location.href = "./poetry.html"
 })
 
 child.addEventListener('click', function (e) {
-  window.location.href = "../child.html"
+  window.location.href = "./child.html"
 })
 
 women.addEventListener('click', function (e) {
-  window.location.href = "../women.html"
+  window.location.href = "./women.html"
 })
 
 bride.addEventListener('click', function (e) {
-  window.location.href = "../bride.html"
+  window.location.href = "./bride.html"
 })
 
 
