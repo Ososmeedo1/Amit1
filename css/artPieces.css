@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Changa:wght@200..800&display=swap');
+
+
+header .content .image {
+  position: relative;
+}
+
+header .content .image .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 10px;
+  font-family: "Abel", sans-serif;
+}
+
+header .content:hover .image .caption {
+  opacity: 1;
+}
+
+header .content {
+  box-shadow: 6px 6px 5px -3px #000;
+  border-radius: 10px;
+
+}
+
+header .title h2 {
+  font-family: "Changa", sans-serif;
+  font-size: 2.5rem;
+}
+
+header .title p {
+  font-family: "Abel", sans-serif;
+}
+
+header .content .image .caption h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+header .content .image .caption button {
+  padding: .8125rem 1.625rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #e9cd80;
+  transition: all 0.8s;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+header .content .image .caption button:hover {
+  transform: scale(0.8);
+}
+
+header .content .image img {
+  height: 500px;
+}
+
+/* navbar */
+
+nav {
+  padding: 5px;
+  z-index: 99999;
+}
+
+.navbar-brand {
+  width: 25%;
+}
+
+.navbar-brand img {
+  width: 15%;
+  padding-left: 10px;
+}
+
+.nav-link {
+  color: #D8B454;
+  position: relative;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: #D8B454;
+  width: 0;
+  transition: all 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23D8B454' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+@media screen and (max-width: 668px) {
+  .navbar-brand img {
+    text-align: center;
+    width: 50%;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+}
+
+/* second */
+
+
+.second .content .image {
+  position: relative;
+}
+
+.second .content .image img {
+  height: 400px;
+  object-fit: cover;
+}
+
+.second .content .image .caption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+  border-radius: 10px;
+  font-family: "Abel", sans-serif;
+}
+
+.second .content .image img {
+  height: 500px;
+}
+
+.second .content:hover .image .caption {
+  opacity: 1;
+}
+
+.second .content {
+  box-shadow: 6px 6px 5px -3px #000;
+  border-radius: 20px;
+}
+
+.second .title h2 {
+  font-family: "Changa", sans-serif;
+}
+
+.second .title p {
+  font-family: "Abel", sans-serif;
+}
+
+.second .content .image .caption h2 {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.second .content .image .caption button {
+  padding: .8125rem 1.625rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #e9cd80;
+  transition: all 0.8s;
+  text-transform: uppercase;
+  font-size: .8rem;
+}
+
+.second .content .image .caption button:hover {
+  transform: scale(0.8);
+}
+
+/* footer */
+
+
+footer .content img {
+  width: 15%;
+}
+
+footer .content p {
+  font-family: "Abel", sans-serif;
+}
+
+footer .content h2 {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+footer .content a {
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+  color: inherit;
+}
+
+footer .content a:hover {
+  color: #D8B454;
+}
+
+footer .content {
+  color: #fff;
+}

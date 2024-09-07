@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Changa:wght@200..800&display=swap');
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+.header-content h1 {
+  font-family: "Changa", sans-serif;
+  color: #D8B454;
+  font-size: 75px;
+}
+
+.header-content button {
+  padding: 20px 30px;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  background-color: #D8B454;
+  font-size: small;
+  transition: 1s;
+}
+
+.header-content button:hover {
+  transform: scale(0.90);
+}
+
+
+
+/* Navbar */
+
+nav {
+  padding: 5px;
+  z-index: 9999;
+}
+
+.navbar-brand {
+  width: 25%;
+}
+
+.navbar-brand img {
+  width: 15%;
+  padding-left: 10px;
+}
+
+.nav-link {
+  color: #D8B454;
+  position: relative;
+}
+
+.nav-link:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  background-color: #D8B454;
+  width: 0;
+  transition: all 0.5s;
+  text-align: center;
+  overflow: hidden;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='%23D8B454' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.nav-link:hover:after {
+  width: 100%;
+}
+
+
+/* art section */
+
+.art-section .caption .title {
+  font-family: "Changa", sans-serif;
+  font-size: 3rem;
+  font-weight: 400;
+}
+
+.art-section .content {
+  font-family: "Abel", sans-serif;
+}
+
+.art-section .content a {
+  transition: all 0.3s;
+  color: #fff;
+}
+
+.art-section .content a:hover {
+  color: #D8B454;
+}
+
+/* sketches */
+
+.sketches .content h2 {
+  font-family: "Changa", sans-serif;
+}
+
+.sketches .content img {
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.sketches .content img:hover {
+  filter: grayscale(100%);
+}
+
+.sketches .content button {
+  padding: 20px 30px;
+  font-family: "Abel", sans-serif;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 10px;
+  background-color: #D8B454;
+  font-size: small;
+  transition: 1s;
+}
+
+.link {
+  margin-top: 50px;
+}
+
+.sketches .content button:hover {
+  transform: scale(0.90);
+}
+
+/* art articles */
+
+.art-artciles .content {
+  position: relative;
+}
+
+.art-artciles .content img {
+  width: 100%;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.art-artciles .cap {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  color: #e9cd80;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 10px 0;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.art-artciles .cap h4 {
+  font-weight: bold;
+}
+
+.art-artciles .cap button {
+  border: none;
+  padding: 10px 28px;
+  border-radius: 10px;
+  background-color: #D8B454;
+  font-family: "Abel", sans-serif;
+  transition: 1s;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+.art-artciles .cap button:hover {
+  transform: scale(0.8);
+}
+
+.art-artciles h2 {
+  font-family: "Changa", sans-serif;
+  font-size: 2.5rem;
+}
+
+/* Testmonials */
+
+.testmonials h2 {
+  text-align: center;
+  font-family: "Changa", sans-serif;
+  font-size: 3rem;
+}
+
+.testmonials .content {
+  background-color: #191919;
+  padding: 20px;
+  color: #D8B454;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transform: skewX(-15deg);
+}
+
+.testmonials .content span {
+  font-size: 3.5rem;
+}
+
+.testmonials .content p {
+  text-align: start;
+  width: 75%;
+  margin: auto;
+}
+
+.testmonials .content .name {
+  text-align: right;
+}
+
+/* footer */
+
+footer .content img {
+  width: 15%;
+}
+
+footer .content p {
+  font-family: "Abel", sans-serif;
+}
+
+footer .content h2 {
+  font-family: "Abel", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+
+footer .content a {
+  font-family: "Abel", sans-serif;
+  transition: 0.3s;
+  color: inherit;
+}
+
+footer .content a:hover {
+  color: #D8B454;
+}
+
+footer .content {
+  color: #fff;
+}
+
+
+
+/* .art-artciles .content:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 25%;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 999999999;
+} */
+
+
+/* mediaQuery */
+
+@media screen and (max-width: 668px) {
+  .navbar-brand img {
+    text-align: center;
+    width: 50%;
+  }
+
+  .nav-link {
+    text-align: center;
+  }
+
+  .header-content {
+    text-align: center;
+  }
+
+  .testmonials .content {
+    width: 75%;
+    margin: auto;
+  }
+}
